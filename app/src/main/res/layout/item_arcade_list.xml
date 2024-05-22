@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="280dp"
+        android:layout_height="696dp">
+
+        <ImageView
+            android:id="@+id/arcadeMachineIV"
+            android:layout_width="280dp"
+            android:layout_height="584dp"
+            android:layout_marginEnd="5dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/arcade2" />
+
+        <ImageView
+            android:id="@+id/arcadespielLogoIV"
+            android:layout_width="193dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="8dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.556"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/arcadeMachineIV"
+            app:srcCompat="@drawable/axelaylogo" />
+
+        <ImageView
+            android:id="@+id/arcadespielIV"
+            android:layout_width="104dp"
+            android:layout_height="103dp"
+            android:layout_marginTop="164dp"
+            android:layout_marginEnd="8dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.523"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/axelayarcscreen" />
+
+        <ImageView
+            android:id="@+id/arcadeBTNLetsgoIV"
+            android:layout_width="183dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginBottom="268dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.397"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/altpixelbutton2" />
+
+        <ImageView
+            android:id="@+id/iconIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/arcadeBTNLetsgoIV"
+            app:layout_constraintStart_toStartOf="@+id/arcadeBTNLetsgoIV"
+            app:layout_constraintTop_toTopOf="@+id/arcadeBTNLetsgoIV"
+            app:layout_constraintVertical_bias="0.117"
+            app:srcCompat="@drawable/axelayicon" />
+
+        <TextView
+            android:id="@+id/letsgoTV"
+            android:layout_width="111dp"
+            android:layout_height="23dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dotgothic16"
+            android:text="Los Gehts!"
+            android:textColor="#FF9100"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/arcadeBTNLetsgoIV"
+            app:layout_constraintEnd_toEndOf="@+id/arcadeBTNLetsgoIV"
+            app:layout_constraintTop_toTopOf="@+id/arcadeBTNLetsgoIV"
+            app:layout_constraintVertical_bias="0.464" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
