@@ -15,4 +15,19 @@
         android:name="com.example.arcadeshootemuphystoria.ui.SpielAuswahlFragment"
         android:label="fragment_spiel_auswahl"
         tools:layout="@layout/fragment_spiel_auswahl" />
+    <fragment
+        android:id="@+id/kategorieFragment"
+        android:name="com.example.arcadeshootemuphystoria.ui.KategorieFragment"
+        android:label="fragment_kategorie"
+        tools:layout="@layout/fragment_kategorie" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.arcadeshootemuphystoria.ui.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/tippsUndTricksFragment"
+        android:name="com.example.arcadeshootemuphystoria.ui.TippsUndTricksFragment"
+        android:label="fragment_tippsund_tricks"
+        tools:layout="@layout/fragment_tippsund_tricks" />
 </navigation>
