@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearSnapHelper
+import androidx.recyclerview.widget.SnapHelper
 import com.example.arcadeshootemuphystoria.R
 import com.example.arcadeshootemuphystoria.adapter.AshAdapter
 import com.example.arcadeshootemuphystoria.data.AshAutomatData
@@ -32,5 +34,10 @@ class SpielAuswahlFragment : Fragment() {
 
         val adapter = AshAdapter(data)
         binding.arcadeRotation.adapter = adapter
+
+        val snapHelper: SnapHelper = LinearSnapHelper()
+        snapHelper.attachToRecyclerView(binding.arcadeRotation)
     }
+
+
 }

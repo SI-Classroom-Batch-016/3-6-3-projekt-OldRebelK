@@ -29,7 +29,7 @@
         android:src="@drawable/altpixelbutton4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintHorizontal_bias="0.177"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
@@ -72,7 +72,7 @@
         android:id="@+id/imageButton8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="36dp"
+        android:layout_marginEnd="52dp"
         android:layout_marginBottom="4dp"
         android:backgroundTint="#00FFFFFF"
         android:src="@drawable/altpixelbutton4"

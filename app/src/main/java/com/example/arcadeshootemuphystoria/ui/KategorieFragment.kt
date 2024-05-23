@@ -1,5 +1,7 @@
 package com.example.arcadeshootemuphystoria.ui
 
+import android.graphics.ImageDecoder
+import android.graphics.drawable.AnimatedImageDrawable
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -24,5 +26,15 @@ class KategorieFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        val source = ImageDecoder.createSource(
+           resources, R.drawable.axelaygif
+        )
+        val drawable = ImageDecoder.decodeDrawable(source)
+
+        val imageView = binding.kastengif
+        imageView.setImageDrawable(drawable)
+        (drawable as? AnimatedImageDrawable)?.start()
+
     }
 }

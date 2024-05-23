@@ -55,18 +55,6 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="277dp"
-        android:layout_height="193dp"
-        android:fontFamily="@font/dotgothic16"
-        android:text="TextView"
-        android:textColor="#FF9100"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
-        app:layout_constraintEnd_toEndOf="@+id/imageView5"
-        app:layout_constraintStart_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="@+id/imageView5" />
-
-    <TextView
         android:id="@+id/textView3"
         android:layout_width="202dp"
         android:layout_height="51dp"
@@ -125,5 +113,24 @@
         app:layout_constraintStart_toStartOf="@+id/imageButton4"
         app:layout_constraintTop_toTopOf="@+id/imageButton4"
         app:layout_constraintVertical_bias="0.473" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="297dp"
+        android:layout_height="217dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.465">
+
+        <ImageView
+            android:id="@+id/kastengif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/axelaygif" />
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

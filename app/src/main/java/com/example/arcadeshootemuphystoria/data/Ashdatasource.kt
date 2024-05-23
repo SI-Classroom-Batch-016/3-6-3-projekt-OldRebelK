@@ -24,4 +24,11 @@ object Ashdatasource {
         AshTippsData("Gradius Tipps"),
         AshTippsData("Darius Tipps")
     )
+
+    val kategorie: List<AshkategorieData> = listOf(
+        AshkategorieData(R.drawable.axelaygif),
+        AshkategorieData(R.drawable.rtypegif),
+        AshkategorieData(R.drawable.gradiusgif),
+        AshkategorieData(R.drawable.dariusgif)
+    )
 }
