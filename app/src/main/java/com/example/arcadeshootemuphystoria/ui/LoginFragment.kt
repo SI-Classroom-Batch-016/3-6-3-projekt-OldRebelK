@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.example.arcadeshootemuphystoria.R
 import com.example.arcadeshootemuphystoria.databinding.FragmentLoginBinding
 
@@ -24,5 +25,9 @@ class LoginFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        binding.startBTN.setOnClickListener{
+            findNavController().navigate(R.id.spielAuswahlFragment)
+        }
     }
 }

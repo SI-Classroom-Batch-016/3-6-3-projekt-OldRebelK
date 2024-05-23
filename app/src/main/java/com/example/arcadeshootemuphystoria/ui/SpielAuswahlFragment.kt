@@ -37,6 +37,8 @@ class SpielAuswahlFragment : Fragment() {
 
         val snapHelper: SnapHelper = LinearSnapHelper()
         snapHelper.attachToRecyclerView(binding.arcadeRotation)
+
+
     }
 
 

@@ -33,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/gueBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="568dp"
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/tutBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100dp"
@@ -55,30 +55,30 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/guebtnTV"
         android:layout_width="202dp"
         android:layout_height="51dp"
         android:fontFamily="@font/dotgothic16"
         android:gravity="center"
         android:text="Geschichte und Entwicklung"
         android:textColor="#FF9100"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
-        app:layout_constraintStart_toStartOf="@+id/imageButton2"
-        app:layout_constraintTop_toTopOf="@+id/imageButton2" />
+        app:layout_constraintBottom_toBottomOf="@+id/gueBTN"
+        app:layout_constraintEnd_toEndOf="@+id/gueBTN"
+        app:layout_constraintStart_toStartOf="@+id/gueBTN"
+        app:layout_constraintTop_toTopOf="@+id/gueBTN" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/tutbtnTV"
         android:layout_width="177dp"
         android:layout_height="43dp"
         android:fontFamily="@font/dotgothic16"
         android:gravity="center"
         android:text="Tipps und Tricks"
         android:textColor="#FF9100"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton3"
-        app:layout_constraintStart_toStartOf="@+id/imageButton3"
-        app:layout_constraintTop_toTopOf="@+id/imageButton3" />
+        app:layout_constraintBottom_toBottomOf="@+id/tutBTN"
+        app:layout_constraintEnd_toEndOf="@+id/tutBTN"
+        app:layout_constraintStart_toStartOf="@+id/tutBTN"
+        app:layout_constraintTop_toTopOf="@+id/tutBTN" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -92,7 +92,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/katbackBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="144dp"
@@ -103,15 +103,15 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/backarrowIV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/asharrow"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton4"
+        app:layout_constraintBottom_toBottomOf="@+id/katbackBTN"
+        app:layout_constraintEnd_toEndOf="@+id/katbackBTN"
         app:layout_constraintHorizontal_bias="0.472"
-        app:layout_constraintStart_toStartOf="@+id/imageButton4"
-        app:layout_constraintTop_toTopOf="@+id/imageButton4"
+        app:layout_constraintStart_toStartOf="@+id/katbackBTN"
+        app:layout_constraintTop_toTopOf="@+id/katbackBTN"
         app:layout_constraintVertical_bias="0.473" />
 
     <androidx.cardview.widget.CardView

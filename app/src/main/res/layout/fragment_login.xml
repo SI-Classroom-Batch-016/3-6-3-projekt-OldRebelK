@@ -31,7 +31,7 @@
         app:srcCompat="@drawable/logoalt" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/startBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
@@ -43,15 +43,15 @@
         app:srcCompat="@drawable/altpixelbutton1" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/startbtnTV"
         android:layout_width="197dp"
         android:layout_height="49dp"
         android:gravity="center"
         android:text="Münze Einwerfen"
         android:textColor="#FFC400"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton"
-        app:layout_constraintStart_toStartOf="@+id/imageButton"
-        app:layout_constraintTop_toTopOf="@+id/imageButton" />
+        app:layout_constraintBottom_toBottomOf="@+id/startBTN"
+        app:layout_constraintEnd_toEndOf="@+id/startBTN"
+        app:layout_constraintStart_toStartOf="@+id/startBTN"
+        app:layout_constraintTop_toTopOf="@+id/startBTN" />
 </androidx.constraintlayout.widget.ConstraintLayout>

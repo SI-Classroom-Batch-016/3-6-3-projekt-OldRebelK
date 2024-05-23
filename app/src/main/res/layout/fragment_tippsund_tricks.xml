@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.5" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/backBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
@@ -69,7 +69,7 @@
         app:layout_constraintVertical_bias="0.201" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/arcadeBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="52dp"
@@ -80,22 +80,22 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/backarrow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/asharrow"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton6"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton6"
-        app:layout_constraintStart_toStartOf="@+id/imageButton6"
-        app:layout_constraintTop_toTopOf="@+id/imageButton6" />
+        app:layout_constraintBottom_toBottomOf="@+id/backBTN"
+        app:layout_constraintEnd_toEndOf="@+id/backBTN"
+        app:layout_constraintStart_toStartOf="@+id/backBTN"
+        app:layout_constraintTop_toTopOf="@+id/backBTN" />
 
     <ImageView
-        android:id="@+id/imageView20"
+        android:id="@+id/arcadeIcon"
         android:layout_width="47dp"
         android:layout_height="53dp"
         android:src="@drawable/asharcadereturnicon"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton8"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton8"
-        app:layout_constraintStart_toStartOf="@+id/imageButton8"
-        app:layout_constraintTop_toTopOf="@+id/imageButton8" />
+        app:layout_constraintBottom_toBottomOf="@+id/arcadeBTN"
+        app:layout_constraintEnd_toEndOf="@+id/arcadeBTN"
+        app:layout_constraintStart_toStartOf="@+id/arcadeBTN"
+        app:layout_constraintTop_toTopOf="@+id/arcadeBTN" />
 </androidx.constraintlayout.widget.ConstraintLayout>

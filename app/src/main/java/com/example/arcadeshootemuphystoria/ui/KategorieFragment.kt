@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.example.arcadeshootemuphystoria.R
 import com.example.arcadeshootemuphystoria.databinding.FragmentKategorieBinding
 
@@ -36,5 +37,14 @@ class KategorieFragment : Fragment() {
         imageView.setImageDrawable(drawable)
         (drawable as? AnimatedImageDrawable)?.start()
 
+        binding.gueBTN.setOnClickListener{
+            findNavController().navigate(R.id.infoFragment)
+        }
+        binding.tutBTN.setOnClickListener {
+            findNavController().navigate(R.id.tippsUndTricksFragment)
+        }
+        binding.katbackBTN.setOnClickListener {
+            findNavController().navigate(R.id.spielAuswahlFragment)
+        }
     }
 }

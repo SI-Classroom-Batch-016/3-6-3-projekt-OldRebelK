@@ -19,16 +19,16 @@ object Ashdatasource {
     )
 
     val tipps: List<AshTippsData> = listOf(
-        AshTippsData("Axelay Tipps"),
-        AshTippsData("R-Type Tipps"),
-        AshTippsData("Gradius Tipps"),
-        AshTippsData("Darius Tipps")
+        AshTippsData(R.drawable.axelayicon,"Axelay Tipps"),
+        AshTippsData(R.drawable.arrowheadicon,"R-Type Tipps"),
+        AshTippsData(R.drawable.vicvipericon,"Gradius Tipps"),
+        AshTippsData(R.drawable.silverhawkicon,"Darius Tipps")
     )
 
     val kategorie: List<AshkategorieData> = listOf(
-        AshkategorieData(R.drawable.axelaygif),
-        AshkategorieData(R.drawable.rtypegif),
-        AshkategorieData(R.drawable.gradiusgif),
-        AshkategorieData(R.drawable.dariusgif)
+        AshkategorieData(R.drawable.axelayicon,R.drawable.axelaygif),
+        AshkategorieData(R.drawable.arrowheadicon,R.drawable.rtypegif),
+        AshkategorieData(R.drawable.vicvipericon,R.drawable.gradiusgif),
+        AshkategorieData(R.drawable.silverhawkicon,R.drawable.dariusgif)
     )
 }
