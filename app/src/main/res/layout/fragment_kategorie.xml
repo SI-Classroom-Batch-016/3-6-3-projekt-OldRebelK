@@ -81,7 +81,7 @@
         app:layout_constraintTop_toTopOf="@+id/tutBTN" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/shipiconIV"
         android:layout_width="190dp"
         android:layout_height="109dp"
         android:layout_marginTop="440dp"

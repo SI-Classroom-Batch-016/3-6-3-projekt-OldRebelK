@@ -45,7 +45,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/TuTIconIV"
         android:layout_width="63dp"
         android:layout_height="55dp"
         android:layout_marginStart="52dp"
@@ -55,7 +55,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/tutTextTV"
         android:layout_width="335dp"
         android:layout_height="554dp"
         android:fontFamily="@font/dotgothic16"
