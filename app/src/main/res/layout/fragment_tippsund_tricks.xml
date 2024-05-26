@@ -61,6 +61,7 @@
         android:fontFamily="@font/dotgothic16"
         android:text="TextView"
         android:textColor="#FF9100"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView15"
         app:layout_constraintEnd_toEndOf="@+id/imageView15"
         app:layout_constraintHorizontal_bias="0.55"
