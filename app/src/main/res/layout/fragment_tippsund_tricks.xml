@@ -60,6 +60,7 @@
         android:layout_height="554dp"
         android:fontFamily="@font/dotgothic16"
         android:text="TextView"
+        android:textAlignment="center"
         android:textColor="#FF9100"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView15"
